@@ -1,10 +1,9 @@
 name: Bug Report
-description: Create a report to help us improve
-title: "[Bug]: [a concise title for the bug]"
+description: File a bug report
+title: "[Bug]: "
 labels: ["bug", "triage"]
 assignees:
-  - fcno
-
+  - octocat
 body:
   - type: markdown
     attributes:
@@ -22,32 +21,9 @@ body:
     id: what-happened
     attributes:
       label: What happened?
-      description: Tell us everything about the bug and why is this a bug!
-      placeholder: Concisely explain what is happening!
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
       value: "A bug happened!"
-    validations:
-      required: true
-  - type: textarea
-    id: to-reproduce
-    attributes:
-      label: How can we reproduce?
-      description: Tell us exactly how we can reproduce the bug!
-      placeholder: Concisely explain what is happening!
-      value: |
-            Steps to reproduce the behavior:
-            1. Go to '...'
-            2. Click on '....'
-            3. Scroll down to '....'
-            4. See error"
-    validations:
-      required: true
-  - type: textarea
-    id: expected-behavior
-    attributes:
-      label: What would be the expected behavior??
-      description: Tell us what did you expect to happen!
-      placeholder: Concisely tell us what did you expect!
-      value: "A clear and concise description of what you expected to happen."
     validations:
       required: true
   - type: dropdown
@@ -56,9 +32,8 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - 1.0 (Default)
-        - 2.0 (Edge)
-        - 3.0 (Edge)
+        - 1.0.2 (Default)
+        - 1.0.3 (Edge)
     validations:
       required: true
   - type: dropdown
