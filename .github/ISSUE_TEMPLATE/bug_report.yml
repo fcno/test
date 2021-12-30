@@ -84,7 +84,7 @@ body:
     attributes:
       label: What would be the expected behavior??
       description: "Tell us what did you expect to happen!"
-      placeholder: "Concisely tell us what did you expect to happen!""
+      placeholder: "Concisely tell us what did you expect to happen!"
     validations:
       required: true
   - type: textarea
