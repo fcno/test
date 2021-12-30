@@ -47,7 +47,7 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
-        - None
+        - Other or None (please specify in the description!)
   - type: input
     id: contact
     attributes:
