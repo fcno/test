@@ -33,11 +33,12 @@ body:
       label: How can we reproduce?
       description: Tell us exactly how we can reproduce the bug!
       placeholder: Concisely explain what is happening!
-      value: "Steps to reproduce the behavior:
-             1. Go to '...'
-             2. Click on '....'
-             3. Scroll down to '....'
-             4. See error"
+      value: |
+            Steps to reproduce the behavior:
+            1. Go to '...'
+            2. Click on '....'
+            3. Scroll down to '....'
+            4. See error"
     validations:
       required: true
   - type: textarea
